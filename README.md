@@ -9,12 +9,13 @@
 > * 硬件：Raspberry Pi 4B
 > * 摄像头：中星微摄像头（型号：USB301PL）
 > * 镜像版本：2022-09-22-raspios-bullseye-arm64.img
-> * Python版本：`3.9.2`
+> * 树莓派Python版本：`3.9.2`
 
 ## 前言
 请提前确认摄像头和OpenCV是否可以正常使用，详情请查看我从前的文章`【树莓派】OpenCV的环境安装与基本使用`。
 
 ## 文件树
+- 关联的Github仓库[戳这里](https://github.com/ZhangKeLiang0627/YOLOv5-loopy-RaspberryPi)。
 ```bash
 RaspberryPiDeployYOLOv5/
 ├─1.yolov5ForTrain # 用于PC端进行模型训练
@@ -87,4 +88,4 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 ### 后记
 - 可可爱爱的loopy来自这里[数据集来源](https://github.com/ZhangKeLiang0627/YOLOv8-loopy)。
-- 关联的Github仓库[戳这里](https://github.com/ZhangKeLiang0627/YOLOv5-loopy-RaspberryPi) 
+- 关联的Github仓库[戳这里](https://github.com/ZhangKeLiang0627/YOLOv5-loopy-RaspberryPi)。
